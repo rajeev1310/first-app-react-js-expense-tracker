@@ -1,0 +1,11 @@
+.expense-item-container {
+}
+.expense-item-container .expense-item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  align-items: center;
+  margin: 5% 0;
+  border-radius: 8px;
+  padding: 0 5%;
+}
