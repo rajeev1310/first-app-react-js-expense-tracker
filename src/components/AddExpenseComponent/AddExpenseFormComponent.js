@@ -27,6 +27,7 @@ const AddExpenseFormComponent = (props) => {
             date: new Date(expenseDate)
         }
         props.onAddExpense(expenseObj);
+        props.onCancel();
     }
 
     return (
@@ -37,6 +38,7 @@ const AddExpenseFormComponent = (props) => {
                 <input type="number" placeholder="Expense Amount" onChange={onAmountChangeHandler} />
                 <input type="date" placeholder="Expense Date" onChange={onDateChangeHandler} />
                 <button type="submit">Add</button>
+                <button type="button" onClick={props.onCancel}>Cancel</button>
             </form>
         </div>
     );

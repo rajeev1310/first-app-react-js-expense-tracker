@@ -1,6 +1,4 @@
 .expense-item-container {
-  width: 50%;
-  margin: 0 auto;
 }
 .expense-item-container .expense-item {
   display: flex;
